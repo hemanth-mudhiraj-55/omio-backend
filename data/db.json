@@ -1,0 +1,66 @@
+{
+  "messages": [
+    {
+      "id": 2,
+      "name": "Hemanth",
+      "email": "hemanththarun1@gmail.com",
+      "channel": "sales",
+      "subject": "hello",
+      "message": "sss",
+      "status": "unread",
+      "created_at": "2026-03-30T17:58:42.903Z"
+    },
+    {
+      "id": 3,
+      "name": "Hemanth",
+      "email": "hemanththarun1@gmail.com",
+      "channel": "careers",
+      "subject": "Hello",
+      "message": "i am hemanth",
+      "status": "unread",
+      "created_at": "2026-03-30T18:32:40.326Z"
+    },
+    {
+      "id": 4,
+      "name": "hemanth",
+      "email": "hemanththarun1@gmail.com",
+      "channel": "general",
+      "subject": "hello",
+      "message": "hello",
+      "status": "unread",
+      "created_at": "2026-03-30T18:40:03.357Z"
+    },
+    {
+      "id": 5,
+      "name": "he",
+      "email": "hemanththarun1@gmail.com",
+      "channel": "careers",
+      "subject": "jklj",
+      "message": "lijklj",
+      "status": "unread",
+      "created_at": "2026-03-30T18:41:08.740Z"
+    },
+    {
+      "id": 6,
+      "name": "j,jn",
+      "email": "hemanththarun1@gmail.com",
+      "channel": "media",
+      "subject": "",
+      "message": "njmm",
+      "status": "unread",
+      "created_at": "2026-03-30T18:41:43.082Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2a$10$REdcOUht1V7FWHdLoHRZtelKcLLw.D30TkuXua7e.Sws3xLveVRLi",
+      "created_at": "2026-03-28T04:58:50.361Z"
+    }
+  ],
+  "_seq": {
+    "messages": 7,
+    "admins": 2
+  }
+}
