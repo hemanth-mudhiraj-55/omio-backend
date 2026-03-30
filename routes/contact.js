@@ -1,7 +1,7 @@
 const express = require('express');
 const router  = express.Router();
 const { insertMessage } = require('../db/database');
-const { sendContactEmails } = require('../lib/mailer');
+const { sendContactEmails, getChannelConfig } = require('../lib/mailer');
 
 /* ── Allowed channels — reject anything not on this list ── */
 const VALID_CHANNELS = new Set([
@@ -60,11 +60,12 @@ router.post('/', async (req, res) => {
     });
   } catch (error) {
     console.error('[contact-email]', error.message);
+    const { inbox } = getChannelConfig(savedMessage.channel);
     return res.status(201).json({
       success: true,
       id,
       emailSent: false,
-      inbox: process.env.CONTACT_INBOX || 'hello@omio.world',
+      inbox,
       warning: 'Message saved, but email delivery failed.',
     });
   }
