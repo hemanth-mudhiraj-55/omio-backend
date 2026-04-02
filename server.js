@@ -97,6 +97,8 @@ const contactLimiter = rateLimit({
 app.use('/api/contact', contactLimiter, require('./routes/contact'));
 app.use('/api/admin/login', authLimiter);
 app.use('/api/admin', require('./routes/admin'));
+app.use('/api/site-settings', require('./routes/site'));
+app.use('/api/ocito', require('./routes/ocito'));
 
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });

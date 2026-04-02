@@ -59,8 +59,95 @@
       "created_at": "2026-03-28T04:58:50.361Z"
     }
   ],
+  "ocitoQuestions": [],
+  "siteSettings": {
+    "heroStats": [
+      {
+        "id": "projects",
+        "value": 20,
+        "suffix": "+",
+        "label": "Projects"
+      },
+      {
+        "id": "countries",
+        "value": 5,
+        "suffix": "+",
+        "label": "Expanding business in countries"
+      },
+      {
+        "id": "availability",
+        "value": 24,
+        "suffix": "/7",
+        "label": "Services"
+      }
+    ],
+    "aboutPage": {
+      "eyebrow": "About OmiO",
+      "title": "Software built with intention",
+      "description": "OmiO Software Solutions is a technology startup providing software development, AI benchmarking, AI agent evaluation, and custom technology solutions for businesses worldwide.",
+      "missionTitle": "Helping ambitious teams build reliable intelligent systems",
+      "missionBody": "We focus on turning ideas into production-ready software with strong engineering discipline, calm execution, and practical business thinking.",
+      "missionBody2": "From product engineering to AI evaluation workflows, our team works closely with founders and businesses that want dependable long-term partners.",
+      "workTitle": "How we work",
+      "workBody": "We operate with a startup mindset: fast feedback, transparent communication, and delivery cycles designed to keep momentum high without sacrificing quality.",
+      "workBody2": "Every engagement is shaped around real needs, measurable outcomes, and collaboration that keeps everyone aligned from planning through launch.",
+      "ctaTitle": "Ready to build with OmiO?",
+      "ctaText": "If you want to launch a product, improve an AI workflow, or collaborate on a custom technology solution, let us start the conversation.",
+      "values": [
+        {
+          "title": "Craft over shortcuts",
+          "description": "We build software carefully, with decisions designed to stay useful long after launch."
+        },
+        {
+          "title": "Honest communication",
+          "description": "We share progress, risks, and tradeoffs early so teams can make strong decisions with confidence."
+        },
+        {
+          "title": "Outcome-driven delivery",
+          "description": "Success is measured by business impact, not just by shipping code."
+        },
+        {
+          "title": "Continuous learning",
+          "description": "We keep adapting through research, experimentation, and active improvement."
+        },
+        {
+          "title": "Respectful collaboration",
+          "description": "The best work happens when people can contribute openly across roles and disciplines."
+        },
+        {
+          "title": "Sustainable pace",
+          "description": "Healthy teams build better products, so we aim for consistency instead of chaos."
+        }
+      ],
+      "expertise": [
+        {
+          "title": "Software Development",
+          "description": "Web and mobile solutions designed for speed, clarity, and reliable delivery."
+        },
+        {
+          "title": "AI Benchmarking",
+          "description": "Measurement systems that help teams understand model quality and product readiness."
+        },
+        {
+          "title": "AI Agent Evaluation",
+          "description": "Structured evaluation flows for assistants, agents, and automation systems in production."
+        },
+        {
+          "title": "Custom Technology Solutions",
+          "description": "Tailored engineering partnerships for businesses that need focused technical execution."
+        }
+      ]
+    },
+    "aiBot": {
+      "name": "Ocito",
+      "greeting": "Hello! I'm Ocito, the AI assistant of OmiO Software Solutions. How can I help you today?",
+      "summary": "Ocito helps visitors understand OmiO services, opportunities, contact paths, and collaboration options with concise, professional guidance.",
+      "systemPrompt": "You are Ocito, the official AI assistant of OmiO Software Solutions.\n\nYour role is to help visitors understand the company, services, and opportunities available at OmiO. You should communicate in a friendly, professional, and helpful manner.\n\nAbout the company:\nOmiO Software Solutions is a technology startup that provides software development, AI benchmarking, AI agent evaluation, and custom technology solutions for businesses worldwide.\n\nYour responsibilities include:\n- Helping visitors understand OmiO's services\n- Explaining what the company does\n- Providing information about careers, internships, and freelance opportunities\n- Answering questions about the website\n- Guiding users to contact the team when necessary\n- Encouraging users to explore services or collaborate\n\nImportant guidelines:\n1. Be concise, clear, and professional.\n2. If a question is about services, explain briefly and suggest contacting the team for detailed discussion.\n3. If someone asks about jobs, guide them to email: careers@omio.world\n4. If someone asks about general queries or collaboration, guide them to: queries@omio.world\n5. If someone wants to work with OmiO or submit a project, ask them to contact: community@omio.world\n6. Do not generate false information about the company.\n7. If you do not know an answer, politely suggest contacting the OmiO team.\n\nExample tone:\nFriendly, modern, startup-style communication.\n\nExample greeting:\n\"Hello! I'm Ocito, the AI assistant of OmiO Software Solutions. How can I help you today?\""
+    }
+  },
   "_seq": {
     "messages": 7,
-    "admins": 2
+    "admins": 2,
+    "ocitoQuestions": 2
   }
 }
